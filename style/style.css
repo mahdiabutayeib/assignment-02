@@ -3,23 +3,27 @@
     margin: 0 auto;
     padding: 20px 40px;
 }
-body{
+
+body {
     background-color: #f6f8ff;
 }
-.color1{
-  color: rgba(0, 0, 0, 0.2);
-}
-.color2{
-  color:rgba(107, 114, 128, 1);
+
+.color1 {
+    color: rgba(0, 0, 0, 0.2);
 }
 
-.navbar{
+.color2 {
+    color: rgba(107, 114, 128, 1);
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
     padding: 20px 0;
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -29,6 +33,7 @@ body{
     width: 135px;
     height: 82px;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -36,16 +41,18 @@ nav ul {
     align-items: center;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     font-weight: 500;
-    color:rgba(107, 114, 128, 1);
+    color: rgba(107, 114, 128, 1);
 }
+
 nav ul li a {
-  font-size: 14px;
-  padding: 8px;
+    font-size: 14px;
+    padding: 8px;
 }
-.hero{
+
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,50 +60,59 @@ nav ul li a {
     gap: 45px;
     margin-top: 45px;
 }
-.hero-text{
+
+.hero-text {
     font-size: 65px;
     font-weight: 700;
 }
+
 .hero-text p {
-  font-size: 18px;
-  max-width: 550px;
-  margin-top: 20px;
-  line-height: 1.6;
+    font-size: 18px;
+    max-width: 550px;
+    margin-top: 20px;
+    line-height: 1.6;
 }
-.color{
+
+.color {
     color: #E95A08;
 }
 
-.our-plants{
+.our-plants {
     text-align: center;
     margin-top: 60px;
 }
+
 .our-plants h1 {
     font-size: 50px;
     margin-bottom: 12px;
 
 }
+
 .our-plants p {
     max-width: 600px;
     margin: 0 auto;
     font-size: 22px;
 }
+
 .product-section {
     margin: 60px 0;
 }
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
+
 .product-card {
     padding: 16px;
     text-align: center;
 }
+
 .product-card img {
     width: 100%;
 }
+
 .product-card h3 {
 
     margin: 8px 0 0;
@@ -110,6 +126,7 @@ nav ul li a {
     font-size: 22px;
     margin: 4px 0 12px;
 }
+
 .btn {
     width: 100%;
     background-color: #E95A08;
@@ -120,262 +137,464 @@ nav ul li a {
 }
 
 .info-content {
-  display: flex;
-  align-items: center;
-  gap: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .info-image,
 .info-text {
-  flex: 1;
+    flex: 1;
 }
 
 
 .info-image img {
-  width: 100%;
+    width: 100%;
 }
 
 .info-text h2 {
-  font-size: 50px;
-  font-weight: 800;
-  margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .info-text ul {
-  padding-left: 20px;
-  font-size: 22px;
+    padding-left: 20px;
+    font-size: 22px;
 }
 
 .deals-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
 }
 
 .deal {
-  color: white;
-  border-radius: 10px;
-  padding: 40px 20px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+    color: white;
+    border-radius: 10px;
+    padding: 40px 20px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .deal.small {
-  grid-area: left;
-  height: 150px;
+    grid-area: left;
+    height: 150px;
 }
 
 .deal.big {
-  grid-area: right;
-  height: 320px;
+    grid-area: right;
+    height: 320px;
 }
 
 .deal p {
-  font-size: 18px;
-  font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .deal span {
-  margin-top: 8px;
-  text-decoration: underline;
+    margin-top: 8px;
+    text-decoration: underline;
 }
+
 .deals-section2 {
-  max-width: 900px;
-  margin: 50px auto;
-  padding: 10px;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 10px;
 }
 
 .row {
-  height: 400px;
-  display: flex;
-  gap: 20px;
-  margin-top: 70px;
+    height: 400px;
+    display: flex;
+    gap: 20px;
+    margin-top: 70px;
 }
 
-.row > .vertical-collage {
-  flex: 1; 
+.row>.vertical-collage {
+    flex: 1;
 }
 
-.row > .card {
-  flex: 2;
+.row>.card {
+    flex: 2;
 }
 
-.row > div {
-  flex: 1;
+.row>div {
+    flex: 1;
 }
 
 .vertical-collage {
-  display: flex;
-  flex-direction: column;
-  gap: 15px; 
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
 }
 
 .vertical-collage .card {
-  flex: none;
-  height: calc((100% - 15px) / 2.2);
-  position: relative;
-  border-radius: 10px;
+    flex: none;
+    height: calc((100% - 15px) / 2.2);
+    position: relative;
+    border-radius: 10px;
 }
 
 .card {
-  position: relative;
-  height: 100%;
-  border-radius: 10px;
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
 }
 
 .card img {
-  height: 100%;
-  width: 100%;
-  border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: grid;
-  justify-content: center; 
-  align-items: center;
-  color: white;
-  text-align: center;
-  padding: 10px 20px;
-  border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
 }
 
 .overlay p {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 500;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .overlay button {
-  margin-top: 5px;
-  padding: 5px 12px;
-  border: none;
-  background-color: white;
-  color: black;
-  font-weight: bold;
-  border-radius: 4px;
+    margin-top: 5px;
+    padding: 5px 12px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
 }
+
 .newsletter {
-  position: relative;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 120px;
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
 }
 
 .newsletter .bg-image {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .newsletter-overlay {
-  position: relative;
-  padding: 40px 20px;
-  border-radius: 10px;
-  color: #fff;
-  width: 100%;
-  max-width: 800px;
-  text-align: center;
+    position: relative;
+    padding: 40px 20px;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
 }
 
 .newsletter h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .newsletter-form {
-  display: flex;
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: white;
-  border-radius: 5px;
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
 }
 
-.newsletter-form input{
-  flex: 1;
-  padding: 15px;
-  font-size: 16px;
-  border: none;
+.newsletter-form input {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
 }
 
 .newsletter-form button {
-  background-color: #E95A08;
-  color: white;
-  padding: 0 25px;
-  border: none;
-  font-size: 16px;
-  font-weight: 600;
+    background-color: #E95A08;
+    color: white;
+    padding: 0 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .footer {
-  padding: 40px 20px;
-  border-top: 1px solid #e0e0e0;
+    padding: 40px 20px;
+    border-top: 1px solid #e0e0e0;
 }
 
 .footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .footer-brand {
-  max-width: 300px;
-  flex: 1 1 250px;
+    max-width: 300px;
+    flex: 1 1 250px;
 }
 
 .footer-brand .logo {
-  width: 130px;
-  margin-bottom: 15px;
+    width: 130px;
+    margin-bottom: 15px;
 }
 
 .footer-brand p {
-  font-size: 15px;
-  line-height: 1.6;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 
 .footer-links {
-  display: flex;
-  gap: 60px;
-  flex: 2 1 400px;
-  flex-wrap: 1;
+    display: flex;
+    gap: 60px;
+    flex: 2 1 400px;
+    flex-wrap: 1;
 }
 
 .footer-links ul {
-  list-style: none;
+    list-style: none;
 }
 
 .footer-links li {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-links a {
-  text-decoration: none;
-  font-size: 15px;
-  color:rgba(107, 114, 128, 1);
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(107, 114, 128, 1);
 }
 
 .footer-social ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
-  flex-wrap: 1;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: 1;
 }
 
 .footer-social img {
-  width: 28px;
-  height: 28px;
+    width: 28px;
+    height: 28px;
+}
+
+/* responsive */
+
+@media (max-width: 576px) {
+
+    /* Header */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        gap: 0;
+    }
+
+    .logo img {
+        width: 110px;
+        height: auto;
+    }
+
+    .cart a {
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        text-decoration: none;
+    }
+
+    /* Hero Section */
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-text-container {
+        text-align: left;
+        padding: 0 16px;
+    }
+
+    .hero-text {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    .color {
+        color: #E95A08;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    /* Product Grid: 2 per row, full width */
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        padding: 0 8px;
+    }
+
+    .product-card {
+        background-color: white;
+        padding: 10px 8px;
+        text-align: center;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .product-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    .product-card h3 {
+        font-size: 14px;
+        margin: 10px 0 2px;
+        font-weight: 500;
+    }
+
+    .product-card .price {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .product-card .btn {
+        font-size: 14px;
+        padding: 10px 0;
+        width: 100%;
+        background-color: #E95A08;
+        color: white;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .info-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 16px;
+    }
+
+    .info-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    .info-text h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .info-text ul {
+        padding-left: 20px;
+    }
+
+    .info-text ul li {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+        padding: 0 16px;
+        margin-top: 40px;
+    }
+
+    .row>.card,
+    .vertical-collage .card {
+        width: 100%;
+        height: 200px;
+        border-radius: 12px;
+        position: relative;
+    }
+
+    .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .overlay {
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .overlay button {
+        margin-top: 8px;
+        padding: 6px 16px;
+        background-color: white;
+        color: black;
+        font-weight: 600;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer-links ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer-links li {
+        margin-bottom: 10px;
+    }
+
+    .footer-links ul+ul {
+        margin-top: 0;
+    }
+
+    .footer-links a {
+        display: block;
+        font-size: 16px;
+    }
+
 }
